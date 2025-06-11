@@ -1,6 +1,16 @@
 # 📚 StudyBuddy+: An Ethical AI Math Tutor for Schools & Students
 
-**StudyBuddy+** is a web-based educational platform designed to support students, parents, and educators with integrity-driven AI tools. Rather than handing out answers, StudyBuddy+ teaches students **how to solve math problems** through visual, step-by-step guidance, Socratic questioning, and interactive animations — all aligned with Common Core standards.
+# 📚 StudyBuddy+ Demo
+
+[![Live Demo](https://img.shields.io/badge/🚀%20Launch-Demo-blueviolet?style=for-the-badge&logo=vercel)](https://studybuddy-demo.vercel.app)
+
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel&style=flat-square)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/Styled_with-TailwindCSS-38b2ac?logo=tailwindcss)
+![OpenAI](https://img.shields.io/badge/Powered_by-GPT--4-blueviolet?logo=openai)
+
+**StudyBuddy+** is a web-based educational platform designed to support students, parents, and educators with integrity-driven AI tools. Rather than handing out answers, StudyBuddy+ teaches students **how to solve math problems** through visual, step-by-step 
+guidance, Socratic questioning, and interactive animations — all aligned with Common Core standards.
 
 > ✨ Built by a veteran educator and their daughter as part of a mission to create better, safer educational AI.
 

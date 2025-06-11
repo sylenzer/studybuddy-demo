@@ -1,6 +1,6 @@
 # 📚 StudyBuddy+: An Ethical AI Math Tutor for Schools & Students
 
-StudyBuddy+ is a web-based educational platform designed to support students, parents, and educators with integrity-driven AI tools. Rather than handing out answers, StudyBuddy+ teaches students **how to solve math problems** through visual, step-by-step guidance, Socratic hinting, and interactive animations — all aligned with Common Core standards.
+**StudyBuddy+** is a web-based educational platform designed to support students, parents, and educators with integrity-driven AI tools. Rather than handing out answers, StudyBuddy+ teaches students **how to solve math problems** through visual, step-by-step guidance, Socratic questioning, and interactive animations — all aligned with Common Core standards.
 
 > ✨ Built by a veteran educator and their daughter as part of a mission to create better, safer educational AI.
 
@@ -8,69 +8,92 @@ StudyBuddy+ is a web-based educational platform designed to support students, pa
 
 ## 🎓 Why We Built This
 
-After over 16 years working in special education across multiple classroom settings, the lead developer saw firsthand both the power and the potential pitfalls of emerging AI in schools. Existing AI tools often skip the *learning* and go straight to the *answer* — a serious concern for academic integrity and skill development.
+After over 16 years working in special education across various settings, the lead developer recognized the urgent need for AI that promotes *learning*, not just shortcuts. Existing AI tools often give students final answers too easily, compromising academic integrity.
 
-StudyBuddy+ was born out of a desire to **return honor and honesty to the learning process**, giving students the confidence and tools to grow — not just copy.
-
-This project is also a way to pass on the torch: it's co-developed with the creator’s daughter, a college student in Computer Information Systems, to give her hands-on experience in building educational software from the ground up.
+**StudyBuddy+** was created to restore educational values in the age of AI — helping students build confidence and mastery one step at a time. The project also serves as a real-world software experience for the creator’s daughter, a college Computer Information Systems student.
 
 ---
 
 ## 🧠 Key Features
 
 - ✏️ **Custom Math Problem Solver**  
-  Input any problem and receive structured, step-by-step walkthroughs — not just answers.
+  Input any math problem and get structured, step-by-step guidance.
 
 - 💡 **Adaptive Hint System**  
-  Choose between leading questions, multiple-choice hints, or cryptic clues to spark understanding.
+  Supports Socratic questions, multiple-choice hints, and roadmap overviews.
 
 - 📊 **Visual Renderings**  
-  Graphs and geometry problems display interactive visuals to aid comprehension.
+  Displays graphs and geometric visuals to support understanding.
 
 - 📈 **Progress Tracking & Goal Setting**  
-  Track completed problems, mastery level, and personal learning goals.
+  Lets students and parents track learning progress over time.
 
 - 🔒 **Ethical by Design**  
-  Teachers control whether answers are shown — ideal for in-class use or assignments.
+  Teachers control whether final answers are shown — making it classroom-safe.
+
+---
+
+## 🚀 Try the Demo
+
+🔗 **Live Preview:**  
+[https://studybuddy-frontend-ashen.vercel.app](https://studybuddy-frontend-ashen.vercel.app)
+
+> Note: This version is a limited-functionality demo. The full version includes user progress saving, account-based token limits, and more subject coverage.
+
+---
+
+## 🖼️ Demo Preview
+
+StudyBuddy+ walks students through math problems using multiple learning modes:
+
+### ✏️ Linear Equation Walkthrough  
+![Linear Equation Demo](public/demo-screenshots/solver-linear-equation.png)
+
+---
+
+### 💡 Socratic & Roadmap Hint Modes  
+![Hint System](public/demo-screenshots/solver-hint-system.png)
+
+---
+
+### 🧠 Factoring Quadratics with Explanations  
+![Quadratic Solver](public/demo-screenshots/solver-quadratic-roadmap.png)
+
+---
+
+### 💎 Token System & Problem History  
+![Token System](public/demo-screenshots/solver-token-history.png)
 
 ---
 
 ## 🧪 Tech Stack
 
 - React + Vite frontend
+- Tailwind CSS + shadcn/ui
 - OpenAI GPT-4 API (via secure backend)
-- TailwindCSS & shadcn/ui
-- Supabase (auth + data)
-- Markdown + SVG for visual outputs
+- Supabase (for auth + token tracking)
+- Markdown + SVG rendering
 
 ---
 
-## 🚀 Try the Demo
+## 💬 About the Creators
 
-You can explore a limited version of StudyBuddy+ at:  
-**[https://studybuddy-frontend-ashen.vercel.app](https://studybuddy-frontend-ashen.vercel.app)**
-
-Note: This is a showcase demo with restricted features and mock AI calls. The full version includes user-specific progress, token limits, and expanded subject support.
-
----
-
-## 💬 About the Creator
-
-StudyBuddy+ is created by a certified special education teacher with over 16 years of classroom experience, including work in high-needs environments. This platform reflects a commitment to ethical technology, meaningful learning, and helping the next generation — both students and developers — grow with purpose.
+StudyBuddy+ is developed by a certified special education teacher and a college student pursuing a degree in Computer Information Systems. The project reflects their shared commitment to ethical learning, educational equity, and tech mentorship for the next generation.
 
 ---
 
 ## 🤝 Contributing / Collaborating
 
-We’re currently focused on building strong partnerships with:
-- Educators and schools facing challenges with student learning and AI misuse
-- Developers and designers passionate about education
-- Organizations looking to support ethical EdTech initiatives
+We’re open to collaboration with:
+- Educators and districts working to manage AI use in schools
+- Developers interested in ethical educational tools
+- Investors or organizations supporting EdTech missions
 
-If that’s you, [reach out here](mailto:bltechnologies318@gmail.com)!
+📧 Contact us at: [bltechnologies318@gmail.com](mailto:bltechnologies318@gmail.com)
 
 ---
 
 ## 📌 License
 
-This public repo is a demonstration version. The core application logic, full backend code, and user data integrations are private and not included here. All content © 2025 Black Lake Forge LLC.
+This repository is a public demonstration. The full backend logic and educational tracking system are private and not included here.  
+All content © 2025 Black Lake Forge LLC.
